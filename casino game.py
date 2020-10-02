@@ -1,6 +1,11 @@
 import time
 import random
 current=0
+#initial_balance=0
+#global amount
+#price=amount*10
+#num=0
+#a=0
 def winner():
 	global price
 	global bet_amount
@@ -72,12 +77,12 @@ def clearacc():
 		f.truncate()
 		print("RECORDS CLEAR SUCCESSFUL!")
 		f.close()"""
-pnt("~~~~~~~~~~~~~~~~~-->~")
+print("~~~~~~~~~~~~~~~~~-->~")
 
 
 #common player game
 def new_game():
-	b=random.(1,11)
+	b=random.randint(1,11)
 	print(f"\tComputer has assign you {b} table number  to play .")
 	print("\tHow much do you want to bet...?")
 	global bet_amount
