@@ -1,4 +1,4 @@
-import time
+import time            #casino game in python
 import random
 current=0
 #initial_balance=0
@@ -183,6 +183,7 @@ def menu():
 	
 	print("\n Press 1 to play ==> single new game.\n press 2 to open ==> my account.\n Press 3 to play ==> Multiplayer game.\n Press 4 to ==> clear account info.\n Press 5 to ==> quit game. ")
 	print("~~~~~~~~~~~~~~~~~-->~")
+	print("----------")
 	user_in=int(input("\tEnter your choice : "))
 	if user_in==1:
 		accout()
@@ -206,4 +207,6 @@ def menu():
 		
 rules()
 print("~~~~~~~~~~~~~~~~~-->~")
-menu()
+print("--------------------------")
+
+menu()              #code ends here
